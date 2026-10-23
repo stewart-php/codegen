@@ -15,9 +15,9 @@ use Stewart\Contracts\Action\ActionTargetSource;
 use Stewart\Contracts\HaContext;
 
 /**
- * The `weather` services.
+ * The `weather` actions.
  */
-final readonly class WeatherServices
+final readonly class WeatherActions
 {
     public function __construct(private HaContext $ha)
     {
